@@ -1,9 +1,29 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Badge from "@/components/Badge.astro";
 ---
 
 <Layout title="Welcome to Astro.">
-  <main></main>
+  <main>
+    <section class="w-full lg:w-[740px] mx-auto py-44">
+      <h1 class="text-white text-5xl font-bold flex flex-row gap-x-4 pb-10">
+        Hola, soy Gabri
+        <a
+          href="https://www.linkedin.com/in/gabriel-%C3%A1lvarez-segura-735445187"
+          target="_blank"
+          rel="noopener"
+          class="flex justify-center items-center"
+        >
+          <Badge>Disponible para trabajar</Badge>
+        </a>
+      </h1>
+      <h2 class="text-xl opacity-80">
+        +4 años de experiencia. Desarrollador y Programador Web. De Barcelona,
+        España. Me especializo en plasmar en código todo lo que te puedas
+        imaginar.
+      </h2>
+    </section>
+  </main>
 </Layout>
 
 <style></style>
